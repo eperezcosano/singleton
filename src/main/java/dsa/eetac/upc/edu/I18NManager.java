@@ -3,7 +3,7 @@ package dsa.eetac.upc.edu;
 import java.util.HashMap;
 import java.util.ResourceBundle;
 
-class I18NManager {
+public class I18NManager {
     private static I18NManager singleInstance =null;
     public HashMap<String, ResourceBundle> h;
 

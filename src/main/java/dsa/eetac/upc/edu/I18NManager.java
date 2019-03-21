@@ -18,7 +18,7 @@ class I18NManager {
     }
 
     public String getText(String lang, String key) {
-        ResourceBundle rs =h.get(lang);
+        ResourceBundle rs = h.get(lang);
         if (rs == null) {
             rs = ResourceBundle.getBundle("dsa.eetac.upc.edu."+lang);
             h.put(lang, rs);

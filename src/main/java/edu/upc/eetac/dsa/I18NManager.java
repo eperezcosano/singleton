@@ -20,7 +20,7 @@ public class I18NManager {
     public String getText(String lang, String key) {
         ResourceBundle resourceBundle = this.hashMap.get(lang);
         if (resourceBundle == null) {
-            resourceBundle = ResourceBundle.getBundle("edu.upc.eetac.dsa"+lang);
+            resourceBundle = ResourceBundle.getBundle(lang);
             this.hashMap.put(lang, resourceBundle);
         }
         return resourceBundle.getString(key);

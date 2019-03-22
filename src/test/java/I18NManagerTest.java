@@ -9,6 +9,6 @@ public class I18NManagerTest {
     @Test
     public void getTextTest () {
         I18NManager im = I18NManager.getInstance();
-        Assert.assertEquals("Hola", im.getText("ca", "l1"));
+        Assert.assertEquals("Hola", im.getText("es", "l1"));
     }
 }

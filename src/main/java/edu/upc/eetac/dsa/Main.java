@@ -1,4 +1,4 @@
-package dsa.eetac.upc.edu;
+package edu.upc.eetac.dsa;
 
 public class Main {
 

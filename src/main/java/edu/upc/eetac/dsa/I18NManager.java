@@ -1,4 +1,4 @@
-package dsa.eetac.upc.edu;
+package edu.upc.eetac.dsa;
 
 import java.util.HashMap;
 import java.util.ResourceBundle;
@@ -20,7 +20,7 @@ public class I18NManager {
     public String getText(String lang, String key) {
         ResourceBundle resourceBundle = this.hashMap.get(lang);
         if (resourceBundle == null) {
-            resourceBundle = ResourceBundle.getBundle("dsa.eetac.upc.edu."+lang);
+            resourceBundle = ResourceBundle.getBundle("edu.upc.eetac.dsa"+lang);
             this.hashMap.put(lang, resourceBundle);
         }
         return resourceBundle.getString(key);

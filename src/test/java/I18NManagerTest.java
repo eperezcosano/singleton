@@ -1,4 +1,4 @@
-import dsa.eetac.upc.edu.I18NManager;
+import edu.upc.eetac.dsa.I18NManager;
 
 import org.junit.Test;
 import org.junit.Assert;
